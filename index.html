@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ระบบจองห้องประชุม</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-mark">RB</div>
+      <div>
+        <h1>ระบบจองห้องประชุม</h1>
+        <p>ดูสถานะห้องแบบเรียลไทม์ และจองล่วงหน้าได้ทันที</p>
+      </div>
+    </div>
+    <div class="date-nav">
+      <button id="prevDay">‹</button>
+      <span class="date-label" id="dateLabel"></span>
+      <button id="nextDay">›</button>
+      <button class="today-btn" id="todayBtn">วันนี้</button>
+    </div>
+  </div>
+
+  <div class="layout">
+    <div class="room-list" id="roomList"></div>
+
+    <div class="panel">
+      <div class="status-board">
+        <div class="status-left">
+          <div class="sb-room" id="sbRoomName">-</div>
+          <div class="sb-sub">สถานะขณะนี้</div>
+        </div>
+        <div class="flap-wrap"><span class="flap free" id="sbFlap">ว่าง</span></div>
+        <div class="status-right" id="sbClock">--:--</div>
+      </div>
+
+      <div class="schedule-head">
+        <div>
+          <h2 id="scheduleTitle">ตารางห้อง</h2>
+          <div class="sub" id="scheduleSub">คลิกที่ช่วงเวลาว่างเพื่อจอง</div>
+        </div>
+        <button class="book-btn" id="openBookBtn">+ จองห้องนี้</button>
+      </div>
+
+      <div class="timeline" id="timeline"></div>
+    </div>
+  </div>
+</div>
+
+<div id="modalRoot"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
