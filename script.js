@@ -1,7 +1,7 @@
 const ROOMS = [
-    {id:'sky', name:'ห้องท้องฟ้า', capacity:10, equip:'โปรเจคเตอร์ · วิดีโอคอนเฟอเรนซ์'},
-    {id:'harbor', name:'ห้องท่าเรือ', capacity:6, equip:'จอทีวี'},
-    {id:'loft', name:'ห้องใต้หลังคา', capacity:4, equip:'ไวท์บอร์ด'},
+    {id:'sky', name:'ห้องประชุมฝ่ายขาย', capacity:10, equip:'โปรเจคเตอร์ · วิดีโอคอนเฟอเรนซ์'},
+    {id:'harbor', name:'ห้องประชุมฝ่ายบุคคล', capacity:6, equip:'จอทีวี'},
+    {id:'loft', name:'ห้องประชุมผู้บริหาร', capacity:4, equip:'ไวท์บอร์ด'},
     {id:'board', name:'ห้องประชุมใหญ่', capacity:14, equip:'ระบบเสียง · วิดีโอคอนเฟอเรนซ์'},
   ];
   
