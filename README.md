@@ -25,7 +25,7 @@
 ## 🛠 Tech Stack
 | Category | Details |
 |----------|---------|
-| **Frontend** | HTML5, CSS3 (CSS Variables), Vanilla ES6+ |
+| **Frontend** | HTML5, CSS3 (CSS Variables), Vanilla ES6+ |/
 | **Fonts** | Space Grotesk, Inter, IBM Plex Mono (Google Fonts) |
 | **Storage** | `window.storage` API + localStorage fallback |
 | **Architecture** | Single-file modules, no build step |
@@ -50,7 +50,7 @@ cd Meeting-Room-Booking
 ## 📁 Project Structure
 ```
 Meeting-Room-Booking/
-├── index.html      # Main UI structure (60 lines)
+├── index.html      # Main UI structure (60 lines) 
 ├── script.js       # All logic (325 lines)
 │   ├── ROOMS config, time utilities
 │   ├── storage (load/save/seed)
@@ -128,4 +128,4 @@ Distributed under the **MIT License** — see [LICENSE](LICENSE) for details
 ## 🔗 Links
 - **Repository**: https://github.com/nana14329245/Meeting-Room-Booking
 - **Live Demo**: https://nana14329245.github.io/Meeting-Room-Booking/ *(enable GitHub Pages in Settings → Pages)*
-- **Thai Version**: [README.th.md](README.th.md)
+- **Thai Version**:  [README.th.md](README.th.md)
