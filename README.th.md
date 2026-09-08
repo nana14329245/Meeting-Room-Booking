@@ -25,7 +25,7 @@
 ## 🛠 เทคสแต็ก
 | ประเภท | รายละเอียด |
 |--------|-----------|
-| **Frontend** | HTML5, CSS3 (CSS Variables), Vanilla ES6+ |/
+| **Frontend** | HTML5, CSS3 (CSS Variables), Vanilla ES6+ |
 | **Fonts** | Space Grotesk, Inter, IBM Plex Mono (Google Fonts) |
 | **Storage** | `window.storage` API + localStorage fallback |
 | **Architecture** | Single-file modules, ไม่ต้อง build |

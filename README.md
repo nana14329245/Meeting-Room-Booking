@@ -25,7 +25,7 @@
 ## 🛠 Tech Stack
 | Category | Details |
 |----------|---------|
-| **Frontend** | HTML5, CSS3 (CSS Variables), Vanilla ES6+ |/
+| **Frontend** | HTML5, CSS3 (CSS Variables), Vanilla ES6+ |
 | **Fonts** | Space Grotesk, Inter, IBM Plex Mono (Google Fonts) |
 | **Storage** | `window.storage` API + localStorage fallback |
 | **Architecture** | Single-file modules, no build step |
